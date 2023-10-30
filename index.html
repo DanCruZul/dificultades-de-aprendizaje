@@ -1,0 +1,1407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Kindergarten Website</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- lightgallery css cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h1>Actividades para Niños <br><span>con Dificultades de aprendizaje</span></h1>
+        </div>
+
+        <div class="custom-shape-divider-bottom-1684324473">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+
+    <!-- actividades section starts -->
+
+    <section class="actividades">
+
+        <h3 class="heading"><span>Actividades</span></h3>
+        <p>Selecciona la actividad</p>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/bg/actividades.png" alt="">
+            </div>
+
+            <div class="cajas">
+                <div class="box" onclick="mostrarSeccion('dislexia')" style="background: #8be5f0;">
+                    <img src="images/dislexia.png" alt="">
+                    <h3>Dislexia</h3>
+                </div>
+
+                <div class="box" onclick="mostrarSeccion('disgrafia')" style="background: #fe7058;">
+                    <img src="images/disgrafia.png" alt="">
+                    <h3>Disgrafía</h3>
+                </div>
+
+                <div class="box" onclick="mostrarSeccion('discalculia')" style="background: var(--orange);">
+                    <img src="images/discalculia.png" alt="">
+                    <h3>Discalculia</h3>
+                </div>
+
+                <div class="box" onclick="mostrarSeccion('atencion')" style="background: #999df4;">
+                    <img src="images/atencion.png" alt="">
+                    <h3>Atención dispersa</h3>
+                </div>
+
+                <div class="box" onclick="mostrarSeccion('concentracion')" style="background: #fffef4;">
+                    <img src="images/concentracion.png" alt="">
+                    <h3>Concentración</h3>
+                </div>
+
+                <div class="box" onclick="mostrarSeccion('memoria')" style="background: #d4cbc1;">
+                    <img src="images/memoria.png" alt="">
+                    <h3>Memoria a corto plazo</h3>
+                </div>
+
+                <div class="box" onclick="mostrarSeccion('tdah')" style="background: #ef9ba0;">
+                    <img src="images/tdah.png" alt="">
+                    <h3>TDA y TDAH</h3>
+                </div>
+
+                <div class="box" onclick="mostrarSeccion('emocional')" style="background: #626a8b;">
+                    <img src="images/emocional.png" alt="">
+                    <h3>Inteligencia emocional</h3>
+                </div>
+
+                <div class="box" onclick="mostrarSeccion('cognitivo')" style="background: #fbc592;">
+                    <img src="images/cognitivo.png" alt="">
+                    <h3>Altas capacidades cognitivas</h3>
+                </div>
+
+                <div class="box" onclick="mostrarSeccion('autismo')" style="background: #b674ce;">
+                    <img src="images/autismo.png" alt="">
+                    <h3>Autismo y asperger</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- actividades section ends -->
+
+
+    <!-- dificultades section starts -->
+
+    <div class="dificultades">
+
+        <div class="svg-divider">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#0099ff" fill-opacity="1"
+                    d="M0,160L48,160C96,160,192,160,288,138.7C384,117,480,75,576,64C672,53,768,75,864,96C960,117,1056,139,1152,138.7C1248,139,1344,117,1392,106.7L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+
+        <section class="main-section">
+
+            <div class="content">
+                <h3><span>Aquí se mostrara la </span>actividad seleccionada</h3>
+            </div>
+
+        </section>
+
+        <section id="dislexia" class="main-box">
+
+            <h3 class="heading"><span>Dislexia</span></h3>
+            <p class="text">La dislexia es un trastorno del aprendizaje que afecta la capacidad de leer, escribir y
+                comprender el
+                lenguaje. Los niños con dislexia pueden tener dificultades para reconocer y manipular los sonidos del
+                habla, identificar palabras y comprender la estructura de las oraciones. <br> A continuación, se
+                presentan 10
+                ejercicios para abordar estas dificultades:</p>
+
+            <div class="actividad-container">
+                <div class="actividad-row">
+                    <div class="actividad">
+                        <h4>1. Ejercicio de segmentación de sílabas:</h4>
+                        <p>Pide al niño que divida una palabra en sílabas y pronuncie cada sílaba por separado.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>2. Actividad de discriminación auditiva:</h4>
+                        <p>Reproduce diferentes sonidos y pide al niño que identifique si son iguales o diferentes.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>3. Juego de palabras ocultas:</h4>
+                        <p>Coloca palabras dentro de un bloque de texto y pide al niño que las encuentre.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>4. Ejercicio de deletreo fonético:</h4>
+                        <p>Pide al niño que escriba palabras utilizando los sonidos de las letras en lugar de las letras
+                            mismas.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>5. Actividad de asociación imagen-palabra:</h4>
+                        <p>Presenta imágenes y pide al niño que identifique la palabra que representa cada imagen.</p>
+                    </div>
+                </div>
+
+                <div class="actividad-img">
+                    <img src="images/img-act/dislexia.png" alt="">
+                </div>
+            </div>
+
+            <div class="actividad-container">
+                <div class="actividad-img">
+                    <img src="images/img-act/dislexia-2.jpg" alt="">
+                </div>
+
+                <div class="actividad-row">
+                    <div class="actividad">
+                        <h4>6. Juego de rimas:</h4>
+                        <p>Pide al niño que encuentre palabras que rimen con una palabra dada.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>7. Ejercicio de lectura en voz alta:</h4>
+                        <p>Pide al niño que lea en voz alta un texto corto y luego responda preguntas sobre su
+                            contenido.
+                        </p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>8. Actividad de memoria visual:</h4>
+                        <p>Muestra una imagen durante unos segundos y pide al niño que la describa o dibuje de memoria.
+                        </p>
+                    </div>
+                    <div class="actividad">
+                        <h4>9. Juego de palabras cruzadas:</h4>
+                        <p>Proporciona pistas y pide al niño que complete las palabras cruzadas.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>10. Ejercicio de fluidez lectora:</h4>
+                        <p>Pide al niño que lea un texto en voz alta con un cronómetro y trate de aumentar su velocidad
+                            de
+                            lectura en cada intento.</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="videos">
+                <div class="videos-titulo">
+                    <h4>Videos:</h4>
+                    <p>Además de estos ejercicios, existen recursos en línea donde se pueden encontrar videos con
+                        ejercicios específicos para abordar la dislexia. <br> Algunos videos recomendados son:</p>
+                </div>
+                <div class="video-container">
+                    <div class="video"><iframe loading="lazy" width="560" height="315"
+                            src="https://www.youtube.com/embed/avGK1xtEqdE" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video"><iframe loading="lazy" width="560" height="315"
+                            src="https://www.youtube.com/embed/TjcRGoEAIPg" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="video"><iframe loading="lazy" width="560" height="315"
+                            src="https://www.youtube.com/embed/lqeH1be6RrI?si=esUgQDn_hjO1uInC"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe></div>
+                    <div class="video"><iframe loading="lazy" width="560" height="315"
+                            src="https://www.youtube.com/embed/JGXcqwSQtqs?si=TDaUrsOPTER73IFU"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe></div>
+                    <div class="video"><iframe loading="lazy" width="560" height="315"
+                            src="https://www.youtube.com/embed/TpnxD8objKU?si=iSTbVzFdHpDwXVNJ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe></div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="disgrafia" class="main-box">
+
+            <h3 class="heading"><span>Disgrafía</span></h3>
+            <p class="text">La disgrafía es un trastorno de la escritura que afecta la habilidad de los niños para
+                producir escritura legible y fluida. Los niños con disgrafía pueden tener dificultades para sostener el
+                lápiz correctamente, formar letras de manera consistente y organizar el texto en el papel. <br> A
+                continuación, se presentan 10 ejercicios para abordar estas dificultades:</p>
+
+            <div class="actividad-container">
+                <div class="actividad-row">
+                    <div class="actividad">
+                        <h4>1. Ejercicio de caligrafía:</h4>
+                        <p>Practicar trazos básicos como líneas rectas, curvas y círculos.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>2. Ejercicio de copiado:</h4>
+                        <p>Copiar frases cortas y palabras para mejorar la precisión y legibilidad de la escritura.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>3. Ejercicio de espaciado:</h4>
+                        <p>Practicar dejar espacio adecuado entre palabras y letras.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>4. Ejercicio de fluidez:</h4>
+                        <p>Escribir oraciones completas para mejorar la fluidez y velocidad de escritura.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>5. Ejercicio de repaso:</h4>
+                        <p>Repasar líneas punteadas para mejorar la coordinación ojo-mano.</p>
+                    </div>
+                </div>
+
+                <div class="actividad-img">
+                    <img src="images/img-act/disgrafia.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="actividad-container">
+                <div class="actividad-img">
+                    <img src="images/img-act/disgrafia-2.jpg" alt="">
+                </div>
+
+                <div class="actividad-row">
+                    <div class="actividad">
+                        <h4>6. Ejercicio de dictado:</h4>
+                        <p>Escuchar y escribir palabras o frases para practicar la escritura en tiempo real.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>7. Ejercicio de organización:</h4>
+                        <p>Practicar la organización del texto en el papel, como la alineación y distribución adecuada.
+                        </p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>8. Ejercicio de creatividad:</h4>
+                        <p>Estimular la creatividad a través de la escritura de historias cortas o poemas.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>9. Ejercicio de corrección:</h4>
+                        <p>Revisar y corregir los errores de escritura para mejorar la precisión.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>10. Ejercicio de relajación:</h4>
+                        <p>Realizar ejercicios de relajación antes de escribir para reducir la tensión y mejorar el
+                            control del lápiz.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="videos">
+                <div class="videos-titulo">
+                    <h4>Videos:</h4>
+                    <p>Además de estos ejercicios, existen recursos en línea donde se pueden encontrar videos con
+                        ejercicios específicos para abordar la disgrafía. <br> Algunas direcciones web recomendadas son:
+                    </p>
+                </div>
+                <div class="video-container">
+                    <div class="video"><iframe loading="lazy" width="560" height="315"
+                            src="https://www.youtube.com/embed/hnf8C_Xkmc0?si=yzOUjiO39MMPl0yn"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe></div>
+                    <div class="video"><iframe loaing="lazy" width="560" height="315"
+                            src="https://www.youtube.com/embed/r-_gtbeZn0c?si=PcJOuyWxpLMk2dxJ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe></div>
+                    <div class="video"><iframe loading="lazy" width="560" height="315"
+                            src="https://www.youtube.com/embed/8bc7ZsQtO4M?si=Kvyb2L8lroTdK6nm"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe></div>
+                    <div class="video"><iframe loading="lazy" width="560" height="315"
+                            src="https://www.youtube.com/embed/1X5SNWkJOOM?si=vT-7Kmb9QunhkeFg"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe></div>
+                    <div class="video"><iframe loading="lazy" width="560" height="315"
+                            src="https://www.youtube.com/embed/MFPN5xzwdU4?si=Ou-9Z7-tVuxFhd_n"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe></div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="discalculia" class="main-box">
+            <h3 class="heading"><span>Discalculia</span></h3>
+            <p class="text">La discalculia es una dificultad de aprendizaje que afecta la habilidad para comprender y
+                utilizar conceptos matemáticos. Los niños con discalculia pueden tener dificultades para realizar
+                cálculos, entender el valor numérico y comprender conceptos matemáticos básicos. Para abordar la
+                discalculia, se pueden utilizar diferentes ejercicios y actividades. A continuación, se presentan 10
+                ejercicios para abordar estas dificultades:</p>
+
+            <div class="actividad-container">
+                <div class="actividad-row">
+                    <div class="actividad">
+                        <h4>1. Identificar y clasificar números:</h4>
+                        <p>Pide al niño que identifique y clasifique números según su valor o características
+                            específicas.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>2. Contar en diferentes patrones:</h4>
+                        <p>Pide al niño que cuente hacia adelante y hacia atrás en diferentes patrones, como de 2 en 2 o
+                            de 10 en 10.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>3. Sumas y restas con manipulativos:</h4>
+                        <p>Utiliza manipulativos como bloques o fichas para que el niño practique sumas y restas de
+                            manera visual y táctil.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>4. Identificar secuencias numéricas:</h4>
+                        <p>Pide al niño que identifique y complete secuencias numéricas que faltan, como 2, 4, __, 8,
+                            10.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>5. Resolver problemas verbales:</h4>
+                        <p>Presenta al niño problemas verbales que requieran el uso de operaciones matemáticas para su
+                            resolución.</p>
+                    </div>
+                </div>
+
+                <div class="actividad-img">
+                    <img src="images/img-act/discalculia.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="actividad-container">
+                <div class="actividad-img">
+                    <img src="images/img-act/discalculia-2.jpg" alt="">
+                </div>
+
+                <div class="actividad-row">
+                    <div class="actividad">
+                        <h4>6. Ejercicio de dictado:</h4>
+                        <p>Escuchar y escribir palabras o frases para practicar la escritura en tiempo real.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>7. Ejercicio de organización:</h4>
+                        <p>Practicar la organización del texto en el papel, como la alineación y distribución adecuada.
+                        </p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>8. Ejercicio de creatividad:</h4>
+                        <p>Estimular la creatividad a través de la escritura de historias cortas o poemas.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>9. Ejercicio de corrección:</h4>
+                        <p>Revisar y corregir los errores de escritura para mejorar la precisión.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>10. Ejercicio de relajación:</h4>
+                        <p>Realizar ejercicios de relajación antes de escribir para reducir la tensión y mejorar el
+                            control del lápiz.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="videos">
+                <div class="videos-titulo">
+                    <h4>Videos:</h4>
+                    <p>Además de estos ejercicios, existen recursos en línea donde se pueden encontrar videos con
+                        ejercicios específicos para abordar la discalculia. <br> Algunas direcciones web recomendadas
+                        son:</p>
+                </div>
+                <div class="video-container">
+                    <div class="video"><iframe loading="lazy" width="560" height="315"
+                            src="https://www.youtube.com/embed/Z3TIJ6ERYIc?si=ntzYf95kDERM-AXq"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe></div>
+                    <div class="video"><iframe loading="lazy" width="560" height="315"
+                            src="https://www.youtube.com/embed/X7hfow_9b90?si=BAf4JCyDJC-Hvslo"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe></div>
+                    <div class="video"><iframe loading="lazy" width="560" height="315"
+                            src="https://www.youtube.com/embed/xImfeba1I5g?si=ALo0HKODA5auG32L"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe></div>
+                    <div class="video"><iframe loading="lazy" width="560" height="315"
+                            src="https://www.youtube.com/embed/ITNcGb6EEmg?si=7XBxTY4DKDMESVvk"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe></div>
+                    <div class="video"><iframe loading="lazy" width="560" height="315"
+                            src="https://www.youtube.com/embed/Clga6DhYmVc?si=Lnd-kR0p0Uo-7wcU"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe></div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="atencion" class="main-box">
+            <h3 class="heading"><span>Atención Dispersa</span></h3>
+            <p class="text">La atención dispersa es una dificultad de aprendizaje que se caracteriza por la dificultad
+                para mantener el enfoque y la concentración en una tarea específica. Los niños con atención dispersa
+                pueden tener dificultades para seguir instrucciones, completar tareas y prestar atención en clase. <br>
+                A
+                continuación, se presentan 10 ejercicios para abordar estas dificultades:</p>
+
+            <div class="actividad-container">
+                <div class="actividad-row">
+                    <div class="actividad">
+                        <h4>1. Juego de la memoria:</h4>
+                        <p>Pide al niño que empareje tarjetas con imágenes relacionadas. Esto ayudará a mejorar su
+                            enfoque y memoria visual.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>2. Tareas de seguimiento visual:</h4>
+                        <p>Proporciona al niño actividades donde tenga que seguir líneas o rutas con el dedo o un lápiz.
+                        </p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>3. Juegos de atención selectiva:</h4>
+                        <p>Presenta al niño una serie de objetos o imágenes y pídele que identifique solo los objetos de
+                            un color específico.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>4. Rompecabezas:</h4>
+                        <p>Los rompecabezas ayudan a desarrollar la concentración y la resolución de problemas.
+                            Proporciona al niño rompecabezas de diferentes niveles de dificultad.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>5. Actividades de clasificación:</h4>
+                        <p>Pide al niño que organice objetos o imágenes en categorías específicas, fomentando así la
+                            atención y discriminación visual.</p>
+                    </div>
+                </div>
+
+                <div class="actividad-img">
+                    <img src="images/img-act/atencion.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="actividad-container">
+                <div class="actividad-img">
+                    <img src="images/img-act/atencion-2.jpg" alt="">
+                </div>
+
+                <div class="actividad-row">
+                    <div class="actividad">
+                        <h4>6. Juegos de atención sostenida:</h4>
+                        <p>Proporciona al niño actividades que requieran mantener la atención durante un período
+                            prolongado, como seguir las instrucciones paso a paso para completar una manualidad.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>7. Tareas de escucha activa:</h4>
+                        <p>Pide al niño que escuche una narración o una instrucción y luego responda preguntas
+                            relacionadas con la información que escuchó.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>8. Actividades de movimiento:</h4>
+                        <p>Realiza actividades que combinen movimiento físico con tareas cognitivas, como saltar
+                            mientras se resuelven problemas matemáticos simples.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>9. Juegos de atención dividida:</h4>
+                        <p>Proporciona al niño actividades que requieran prestar atención a múltiples estímulos o tareas
+                            al mismo tiempo, como jugar al Simon Dice.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>10. Ejercicios de respiración y relajación:</h4>
+                        <p>Enseña al niño técnicas de respiración profunda y relajación para ayudarlo a calmarse y
+                            centrarse cuando se sienta abrumado.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="videos">
+                <div class="videos-titulo">
+                    <h4>Videos:</h4>
+                    <p>Además de estos ejercicios, existen recursos en línea donde se pueden encontrar videos con
+                        ejercicios específicos para abordar la atención dispersa. <br> Algunas direcciones web
+                        recomendadas son:</p>
+                </div>
+                <div class="video-container">
+                    <div class="video"><iframe loading="lazy" width="560" height="315"
+                            src="https://www.youtube.com/embed/2rZXMjlPmDU?si=dQ1wr6fdmX8IdaSw"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe></div>
+                    <div class="video"><iframe loading="lazy" width="560" height="315"
+                            src="https://www.youtube.com/embed/oS5SvImaneA?si=2P9VfA9iBdFbf8au"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe></div>
+                    <div class="video"><iframe loading="lazy" width="560" height="315"
+                            src="https://www.youtube.com/embed/X354rQljP90?si=VatOaRzS6McGyYdC"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe></div>
+                    <div class="video"><iframe loading="lazy" width="560" height="315"
+                            src="https://www.youtube.com/embed/jDpWqQAczDM?si=Xel7mwBSRaPX7-CJ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe></div>
+                    <div class="video"><iframe loading="lazy" width="560" height="315"
+                            src="https://www.youtube.com/embed/iLkt7uxtJZY?si=CQ8vDEn1oIereDZX"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe></div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="concentracion" class="main-box">
+            <h3 class="heading"><span>Concentración</span></h3>
+            <p class="text">La concentración es una habilidad cognitiva crucial para el aprendizaje efectivo. Para
+                abordar las dificultades de aprendizaje relacionadas con la concentración, se pueden realizar una
+                variedad de ejercicios y actividades. <br> A continuación, se presentan 10 ejercicios para abordar estas
+                dificultades:</p>
+
+            <div class="actividad-container">
+                <div class="actividad-row">
+                    <div class="actividad">
+                        <h4>1. Ejercicio de respiración profunda:</h4>
+                        <p>Pide al niño que respire profundamente varias veces para ayudar a calmar la mente y mejorar
+                            la concentración.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>2. Juego de memoria:</h4>
+                        <p>Utiliza tarjetas de memoria para que el niño las empareje, lo que estimula la concentración y
+                            la memoria visual.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>3. Laberintos:</h4>
+                        <p>Ofrece laberintos para que el niño resuelva, lo que requiere atención y concentración.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>4. Sopa de letras:</h4>
+                        <p>Proporciona sopas de letras para que el niño encuentre palabras ocultas, lo que mejora la
+                            concentración visual y la atención.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>5. Rompecabezas:</h4>
+                        <p>Ofrece rompecabezas de diferentes niveles de dificultad para que el niño los resuelva, lo que
+                            estimula la concentración y la resolución de problemas.</p>
+                    </div>
+                </div>
+
+                <div class="actividad-img">
+                    <img src="images/img-act/concentracion.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="actividad-container">
+                <div class="actividad-img">
+                    <img src="images/img-act/concentracion-2.jpg" alt="">
+                </div>
+
+                <div class="actividad-row">
+                    <div class="actividad">
+                        <h4>6. Juego de atención selectiva:</h4>
+                        <p>Pide al niño que encuentre y marque un objeto específico en una imagen compleja, lo que
+                            desarrolla la concentración selectiva.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>7. Ejercicios de seguimiento visual:</h4>
+                        <p>Proporciona actividades en las que el niño tenga que seguir una línea o un patrón visual,
+                            mejorando así la concentración visual.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>8. Juego de Simon Dice:</h4>
+                        <p>Juega al juego de "Simón dice" para que el niño preste atención y siga instrucciones
+                            precisas.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>9. Ejercicios de atención sostenida:</h4>
+                        <p>Pide al niño que se concentre y mantenga la atención en una tarea durante un período de
+                            tiempo determinado, como colorear un dibujo detallado.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>10. Juego de contar objetos:</h4>
+                        <p>Invita al niño a contar objetos en una imagen o en la habitación, lo que fomenta la
+                            concentración y la atención.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="videos">
+                <div class="videos-titulo">
+                    <h4>Videos:</h4>
+                    <p>Además de estos ejercicios, existen recursos en línea donde se pueden encontrar videos con
+                        ejercicios específicos para abordar la concentración. <br> Algunas direcciones web recomendadas
+                        son:</p>
+                </div>
+                <div class="video-container">
+                    <div class="video"><iframe loading="lazy" width="560" height="315"
+                            src="https://www.youtube.com/embed/GzE_bKrDug8?si=jIFlGqnDcLjZskTs"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe></div>
+                    <div class="video"><iframe loading="lazy" width="560" height="315"
+                            src="https://www.youtube.com/embed/EpF-1OCIZBg?si=B_Dmy7tOln1D43NM"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe></div>
+                    <div class="video"><iframe loading="lazy" width="560" height="315"
+                            src="https://www.youtube.com/embed/5u4XsTn7u60?si=R3YsiF9s3hrnbjNb"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe></div>
+                    <div class="video"><iframe loading="lazy" width="560" height="315"
+                            src="https://www.youtube.com/embed/lYRUVQO8rjU?si=XhV-dPpzdA7smX89"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe></div>
+                    <div class="video"><iframe loading="lazy" width="560" height="315"
+                            src="https://www.youtube.com/embed/247OsIb2VH4?si=oSQJmEI0We-kFlWY"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe></div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="memoria" class="main-box">
+            <h3 class="heading"><span>Memoria a Corto Plazo</span></h3>
+            <p class="text">La memoria a corto plazo es una habilidad cognitiva fundamental que nos permite retener y
+                procesar información de forma temporal. Para los niños con dificultades de aprendizaje, puede ser
+                especialmente desafiante desarrollar y mantener una memoria a corto plazo efectiva. <br> A continuación,
+                se
+                presentan 10 ejercicios para abordar estas dificultades:</p>
+
+            <div class="actividad-container">
+                <div class="actividad-row">
+                    <div class="actividad">
+                        <h4>1. Juego de memoria de parejas:</h4>
+                        <p>Coloca tarjetas boca abajo y pide al niño que encuentre las parejas recordando la ubicación
+                            de las tarjetas previamente reveladas.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>2. Repetición de secuencias:</h4>
+                        <p>Pídele al niño que repita una secuencia de números, colores o palabras después de que tú la
+                            hayas dicho.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>3. Juego de Simon dice:</h4>
+                        <p>Sigue las instrucciones de "Simon dice" para recordar y ejecutar diferentes acciones.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>4. Ordenar objetos:</h4>
+                        <p>Pide al niño que ordene una serie de objetos en función de un criterio específico, como
+                            tamaño, color o forma.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>5. Juego de palabras encadenadas:</h4>
+                        <p>Pídele al niño que genere una lista de palabras relacionadas, recordando las palabras
+                            anteriores en la secuencia.</p>
+                    </div>
+                </div>
+
+                <div class="actividad-img">
+                    <img src="images/img-act/memoria.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="actividad-container">
+                <div class="actividad-img">
+                    <img src="images/img-act/memoria-2.jpg" alt="">
+                </div>
+
+                <div class="actividad-row">
+                    <div class="actividad">
+                        <h4>6. Juego de atención auditiva:</h4>
+                        <p>Lee una lista de palabras y pide al niño que preste atención y recuerde las palabras
+                            específicas.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>7. Juego de atención visual:</h4>
+                        <p>Muestra una serie de imágenes y pide al niño que identifique y recuerde las imágenes
+                            específicas.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>8. Rompecabezas de memoria:</h4>
+                        <p>Pide al niño que arme un rompecabezas y recuerde la ubicación de las diferentes piezas.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>9. Juego de palabras cruzadas:</h4>
+                        <p>Pídele al niño que complete palabras cruzadas, recordando las palabras que encajan en los
+                            espacios en blanco.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>10. Juego de memoria de objetos ocultos:</h4>
+                        <p>Esconde varios objetos y pide al niño que recuerde la ubicación de cada uno.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="videos">
+                <div class="videos-titulo">
+                    <h4>Videos:</h4>
+                    <p>Además de estos ejercicios, existen recursos en línea donde se pueden encontrar videos con
+                        ejercicios específicos para abordar la memoria a corto plazo. <br> Algunas direcciones web
+                        recomendadas son:</p>
+                </div>
+                <div class="video-container">
+                    <div class="video">
+                        <iframe loading="lazy" width="560" height="315"
+                            src="https://www.youtube.com/embed/AcrvO8HclZ8?si=ueRY0hCdp3RpVPux"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="video">
+                        <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/zvVBfDGHKrE"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="video">
+                        <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/2JATi1cvcC8"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="video">
+                        <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/G2rTS-XAuxA"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="video">
+                        <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/DYLwUccotjs"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="tdah" class="main-box">
+            <h3 class="heading"><span>TDA y TDAH</span></h3>
+            <p class="text">El TDA se caracteriza por una dificultad para mantener la atención y concentrarse en las
+                tareas, lo que puede dificultar el aprendizaje y la retención de información. Por otro lado, el TDAH
+                también incluye hiperactividad e impulsividad, lo que puede afectar aún más la capacidad de los niños
+                para concentrarse y seguir instrucciones. <br> A continuación, se presentan 10 ejercicios para abordar
+                estas
+                dificultades:</p>
+
+            <div class="actividad-container">
+                <div class="actividad-row">
+                    <div class="actividad">
+                        <h4>1. Ejercicio de atención plena:</h4>
+                        <p>Pide al niño que se siente en silencio durante unos minutos y se concentre en su respiración.
+                            Esto puede ayudar a mejorar la capacidad de atención y reducir la distracción.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>2. Juego de memoria:</h4>
+                        <p>Utiliza tarjetas con imágenes o palabras y pide al niño que las recuerde en un orden
+                            específico. Este ejercicio puede ayudar a mejorar la memoria y la concentración.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>3. Rompecabezas o juegos de enfoque:</h4>
+                        <p>Proporciona al niño juegos que requieran atención y concentración, como rompecabezas o juegos
+                            de construcción. Estos juegos pueden ayudar a desarrollar habilidades de enfoque y
+                            concentración.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>4. Actividades de organización:</h4>
+                        <p>Enseña al niño técnicas de organización, como hacer listas de tareas o utilizar agendas.
+                            Estas actividades pueden ayudar a mejorar la planificación y la capacidad de seguir
+                            instrucciones.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>5. Ejercicios de relajación:</h4>
+                        <p>Enseña al niño técnicas de relajación, como la respiración profunda o la visualización
+                            guiada. Estas técnicas pueden ayudar a reducir la ansiedad y mejorar la capacidad de
+                            concentración.</p>
+                    </div>
+                </div>
+
+                <div class="actividad-img">
+                    <img src="images/img-act/TDA.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="actividad-container">
+                <div class="actividad-img">
+                    <img src="images/img-act/TDA-2.jpg" alt="">
+                </div>
+
+                <div class="actividad-row">
+                    <div class="actividad">
+                        <h4>6. Juego de seguimiento visual:</h4>
+                        <p>Pide al niño que siga con la mirada un objeto o un punto en movimiento. Esto puede ayudar a
+                            mejorar la coordinación visual y la atención visual.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>7. Actividades de lectura en voz alta:</h4>
+                        <p>Pide al niño que lea en voz alta y luego responda preguntas sobre el texto. Esto puede ayudar
+                            a mejorar la comprensión lectora y la atención.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>8. Ejercicios de escritura:</h4>
+                        <p>Proporciona al niño ejercicios de escritura que requieran atención y concentración, como
+                            copiar un texto o escribir una historia. Estos ejercicios pueden ayudar a mejorar la
+                            habilidad de escritura y la atención.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>9. Juegos de atención y memoria:</h4>
+                        <p>Utiliza juegos de mesa o digitales que se centren en la atención y la memoria, como el juego
+                            de memorama. Estos juegos pueden ser divertidos y atractivos para el niño, al mismo tiempo
+                            que trabajan en el desarrollo de estas habilidades.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>10. Actividades físicas:</h4>
+                        <p>Fomenta la participación del niño en actividades físicas regulares, como deportes o juegos al
+                            aire libre. El ejercicio físico puede ayudar a mejorar la concentración y reducir los
+                            síntomas del TDAH.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="videos">
+                <div class="videos-titulo">
+                    <h4>Videos:</h4>
+                    <p>Además de estos ejercicios, existen recursos en línea donde se pueden encontrar videos con
+                        ejercicios específicos para abordar el TDA y TDAH. <br> Algunas direcciones web recomendadas
+                        son:</p>
+                </div>
+                <div class="video-container">
+                    <div class="video">
+                        <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/zBpU_EE3MXc"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="video">
+                        <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/fh9ePuG0y8c"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="video">
+                        <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/SggLOXJtVRs"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="video">
+                        <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/TVMlIHqfz3I"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="video">
+                        <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/LZkvSK4fFl4"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="emocional" class="main-box">
+            <h3 class="heading"><span>Inteligencia Emocional</span></h3>
+            <p class="text">La inteligencia emocional es una habilidad importante para abordar las dificultades de
+                aprendizaje en niños. Se refiere a la capacidad de reconocer, comprender y gestionar las emociones
+                propias y de los demás. <br> A continuación, se presentan 10 ejercicios para abordar estas dificultades:
+            </p>
+
+            <div class="actividad-container">
+                <div class="actividad-row">
+                    <div class="actividad">
+                        <h4>1. Identificar emociones:</h4>
+                        <p>Pide al niño que identifique diferentes emociones a través de imágenes o situaciones.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>2. Registro de emociones:</h4>
+                        <p>Pídele al niño que mantenga un diario de emociones, registrando cómo se siente en diferentes
+                            momentos del día.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>3. Juego de roles:</h4>
+                        <p>Realiza juegos de roles donde el niño pueda practicar identificando y expresando emociones.
+                        </p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>4. Respiración profunda:</h4>
+                        <p>Enseña al niño técnicas de respiración profunda para ayudarlo a calmarse en situaciones
+                            estresantes.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>5. Escucha activa:</h4>
+                        <p>Fomenta la habilidad de escucha activa, animando al niño a prestar atención a las emociones y
+                            sentimientos de los demás.</p>
+                    </div>
+                </div>
+
+                <div class="actividad-img">
+                    <img src="images/img-act/emocional.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="actividad-container">
+                <div class="actividad-img">
+                    <img src="images/img-act/emocional-2.jpg" alt="">
+                </div>
+
+                <div class="actividad-row">
+                    <div class="actividad">
+                        <h4>6. Solución de problemas:</h4>
+                        <p>Ayuda al niño a desarrollar habilidades de resolución de problemas, considerando las
+                            emociones involucradas.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>7. Empatía:</h4>
+                        <p>Fomenta la empatía enseñando al niño a ponerse en el lugar de los demás y comprender sus
+                            emociones.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>8. Manejo de la frustración:</h4>
+                        <p>Proporciona estrategias para manejar la frustración, como contar hasta diez o dar un paso
+                            atrás antes de reaccionar.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>9. Expresión emocional a través del arte:</h4>
+                        <p>Anima al niño a expresar sus emociones a través de actividades artísticas como dibujar o
+                            pintar.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>10. Mindfulness:</h4>
+                        <p>Enseña al niño técnicas de mindfulness para ayudarlo a estar presente y manejar sus
+                            emociones.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="videos">
+                <div class="videos-titulo">
+                    <h4>Videos:</h4>
+                    <p>Además de estos ejercicios, existen recursos en línea donde se pueden encontrar videos con
+                        ejercicios específicos para abordar la inteligencia emocional. <br> Algunas direcciones web
+                        recomendadas son:</p>
+                </div>
+                <div class="video-container">
+                    <div class="video">
+                        <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/aEgDnQaguLY"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="video">
+                        <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/EYe-3KdchGI"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="video">
+                        <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/NZe72QQH3Fw"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="video">
+                        <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/w8IZl8y3vDE"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="video">
+                        <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/eSL1KHXRfzg"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="cognitivo" class="main-box">
+            <h3 class="heading"><span>Altas Capacidades Cognitivas</span></h3>
+            <p class="text">Las altas capacidades cognitivas se refieren a un nivel excepcionalmente alto de habilidades
+                intelectuales y cognitivas en niños. Estos niños suelen mostrar una notable capacidad para aprender,
+                razonar y solucionar problemas. Sin embargo, también pueden enfrentar dificultades específicas en el
+                ámbito educativo. A continuación, se presentan 10 ejercicios para abordar estas dificultades:</p>
+
+            <div class="actividad-container">
+                <div class="actividad-row">
+                    <div class="actividad">
+                        <h4>1. Ejercicio de pensamiento lógico:</h4>
+                        <p>Resolver acertijos y rompecabezas que pongan a prueba la capacidad de razonamiento y la
+                            atención al detalle.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>2. Actividad de creatividad:</h4>
+                        <p>Pedir a los niños que generen ideas innovadoras para resolver problemas cotidianos.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>3. Ejercicio de memoria:</h4>
+                        <p>Memorizar secuencias de números o palabras y luego repetirlas en orden.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>4. Actividad de escritura:</h4>
+                        <p>Animar a los niños a escribir historias o ensayos sobre temas que les interesen.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>5. Ejercicio de atención:</h4>
+                        <p>Realizar actividades que requieran mantener la concentración durante períodos de tiempo
+                            prolongados.</p>
+                    </div>
+                </div>
+
+                <div class="actividad-img">
+                    <img src="images/img-act/cognitivo.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="actividad-container">
+                <div class="actividad-img">
+                    <img src="images/img-act/cognitivo-2.jpg" alt="">
+                </div>
+
+                <div class="actividad-row">
+                    <div class="actividad">
+                        <h4>6. Juego de estrategia:</h4>
+                        <p>Jugar juegos de mesa que fomenten la planificación, el análisis y la toma de decisiones.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>7. Actividad de investigación:</h4>
+                        <p>Realizar proyectos de investigación sobre temas de interés y presentar los hallazgos de
+                            manera organizada.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>8. Ejercicio de resolución de problemas matemáticos:</h4>
+                        <p>Plantear problemas matemáticos desafiantes para que los niños los resuelvan utilizando
+                            diferentes estrategias.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>9. Actividad de debate:</h4>
+                        <p>Organizar debates sobre temas controvertidos para fomentar el pensamiento crítico y la
+                            argumentación lógica.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>10. Ejercicio de organización y planificación:</h4>
+                        <p>Pedir a los niños que creen un horario o un plan de estudio para ayudarlos a administrar su
+                            tiempo de manera efectiva.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="videos">
+                <div class="videos-titulo">
+                    <h4>Videos:</h4>
+                    <p>Además de estos ejercicios, existen recursos en línea donde se pueden encontrar videos con
+                        ejercicios específicos para niños con altas capacidades cognitivas. <br> Algunas direcciones web
+                        recomendadas son:</p>
+                </div>
+                <div class="video-container">
+                    <div class="video">
+                        <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/dJiGEc7YEgw"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="video">
+                        <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/ynUlpO0Mqqk"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="video">
+                        <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/CK77v5iHlsI"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="video">
+                        <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/QmeQ6IRDBLk"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="video">
+                        <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/Kietk_nMFfc"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="autismo" class="main-box">
+            <h3 class="heading"><span>Autismo y Síndrome de Asperger</span></h3>
+            <p class="text">El autismo y el síndrome de Asperger son trastornos del espectro autista que pueden
+                presentar dificultades de aprendizaje en los niños. <br> A continuación, se presentan 10 ejercicios para
+                abordar estas dificultades:</p>
+
+            <div class="actividad-container">
+                <div class="actividad-row">
+                    <div class="actividad">
+                        <h4>1. Ejercicio de seguimiento visual:</h4>
+                        <p>Pedir al niño que siga con la mirada un objeto en movimiento.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>2. Ficha de emparejamiento:</h4>
+                        <p>Solicitar al niño que empareje objetos o imágenes que tienen relación entre sí.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>3. Ejercicio de secuenciación:</h4>
+                        <p>Pedir al niño que ordene una serie de imágenes o tarjetas según una secuencia lógica.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>4. Ficha de discriminación visual:</h4>
+                        <p>Presentar al niño una serie de imágenes y pedirle que identifique la que es diferente.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>5. Ejercicio de atención conjunta:</h4>
+                        <p>Realizar actividades que fomenten la interacción y atención compartida entre el niño y el
+                            adulto.</p>
+                    </div>
+                </div>
+
+                <div class="actividad-img">
+                    <img src="images/img-act/autismo.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="actividad-container">
+                <div class="actividad-img">
+                    <img src="images/img-act/autismo-2.jpg" alt="">
+                </div>
+
+                <div class="actividad-row">
+                    <div class="actividad">
+                        <h4>6. Ficha de categorización:</h4>
+                        <p>Pedir al niño que clasifique objetos o imágenes en diferentes categorías.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>7. Ejercicio de habilidades sociales:</h4>
+                        <p>Practicar situaciones de juego o interacción social para mejorar las habilidades sociales del
+                            niño.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>8. Ficha de seguimiento de instrucciones:</h4>
+                        <p>Presentar al niño una serie de instrucciones sencillas y pedirle que las siga.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>9. Ejercicio de resolución de problemas:</h4>
+                        <p>Plantear al niño situaciones problemáticas y guiarlo en la búsqueda de soluciones.</p>
+                    </div>
+
+                    <div class="actividad">
+                        <h4>10. Ficha de reconocimiento de emociones:</h4>
+                        <p>Mostrar al niño diferentes expresiones faciales y pedirle que identifique la emoción
+                            correspondiente.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="videos">
+                <div class="videos-titulo">
+                    <h4>Videos:</h4>
+                    <p>Además de estos ejercicios, existen recursos en línea donde se pueden encontrar videos con
+                        ejercicios específicos para abordar el autismo y Asperger. <br> Algunas direcciones web
+                        recomendadas son:</p>
+                </div>
+                <div class="video-container">
+                    <div class="video">
+                        <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/hGjbVbDezhY"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="video">
+                        <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/UwZCHOj79U4"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="video">
+                        <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/1Frs0ICg2iw"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="video">
+                        <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/yDcZck7Gky8"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="video">
+                        <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/PTen3XXQQ8E"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- dificultades section ends -->
+
+
+    <!-- footer section starts -->
+
+    <section class="svg-main">
+        <div class="footer-svg">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="credit">
+            <h5>Isabella Martínez</h5>
+        </div>
+    </section>
+
+    <!-- footer section ends -->
+
+
+    <!-- lightgallery cdn js link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <!-- custom js file link -->
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
