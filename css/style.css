@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
-@import url('https://fonts.cdnfonts.com/css/dk-crayon-crumble');
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/dk-crayon-crumble");
 
 :root {
   --orange: #ffa500;
@@ -7,19 +7,15 @@
   --black: #1d1c1c;
   --white: #fff;
   --light-color: #666;
-  --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+  --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
 }
 
 * {
-  font-family: 'DK Crayon Crumble', sans-serif;
-  ;
+  font-family: "DK Crayon Crumble", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: none;
-  border: none;
-  text-decoration: none;
-  transition: all .2s linear;
+  transition: all 0.2s linear;
 }
 
 html {
@@ -29,30 +25,14 @@ html {
   scroll-behavior: smooth;
 }
 
-section {
-  padding: 3rem 7%;
-}
-
 img {
   max-width: 100%;
   height: auto;
 }
 
-
-.heading {
-  font-size: 7.5rem;
-  color: var(--black);
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bolder;
-  margin-bottom: 6rem;
+li {
+  list-style-type: none;
 }
-
-.heading span {
-  color: var(--orange);
-  text-transform: uppercase;
-}
-
 
 /* home */
 
@@ -63,178 +43,170 @@ img {
   background-position: center;
   min-height: 100vh;
   display: flex;
-  text-align: center;
   align-items: center;
-  position: relative;
+  justify-content: center;
+  text-align: center;
 }
 
-.home .content {
-  flex: 1 1rem;
-  margin-bottom: 27rem;
-}
-
-.home .content h1 {
+.home h1 {
   font-size: 12rem;
+  line-height: 12rem;
+  margin-bottom: 27rem;
   color: var(--pink);
 }
 
-.home .content h1 span {
+.home h1 span {
   color: var(--orange);
   font-size: 8rem;
 }
 
-.custom-shape-divider-bottom-1684324473 {
+/* end */
+
+/* actividades */
+
+.wave.a {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: -2rem;
   width: 100%;
-  overflow: hidden;
-  line-height: 0;
 }
 
-.custom-shape-divider-bottom-1684324473 svg {
-  position: relative;
-  display: block;
-  width: calc(100%);
-  height: 10rem;
+.wave.a svg {
+  width: calc(100% + 1.3rem);
+  height: 11rem;
 }
 
 .shape-fill {
   fill: var(--pink);
 }
 
-/* end */
-
-
-/* actividades */
-
 .actividades {
   background-color: var(--pink);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 2rem;
+  position: relative;
 }
 
-.actividades p {
+.actividades-intro {
+  text-align: center;
+}
+
+.actividades-intro h3 {
+  font-size: 10rem;
+  color: var(--orange);
+}
+
+.actividades-intro p {
   color: var(--white);
   font-size: 4rem;
-  /* Ajusta el tamaño del texto según sea necesario */
   margin-bottom: 5rem;
-  margin-top: -3.5rem;
 }
 
 .actividades .row {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  padding-bottom: 20rem;
+}
+
+.actividades .image {
+  width: 50%;
+}
+
+.actividades .row-box {
+  width: 50%;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-grow: 1;
   gap: 2rem;
 }
 
-.actividades .row .image {
-  flex: 1 1 50rem;
-}
-
-.actividades .row .image img {
-  width: 100rem;
-  height: auto;
-}
-
-.actividades .cajas {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 1.5rem;
-  margin-left: 2rem;
-  margin-top: 10rem;
-  margin-bottom: 15rem;
-}
-
-.actividades .cajas .box {
-  padding: 1rem 3rem 1rem;
-  text-align: center;
+.actividades .row-box .box {
+  padding: 2rem;
   border-radius: 2rem;
-  max-width: 19.5rem;
+  width: 18.5rem;
+  height: 25rem;
 }
 
-.actividades .cajas .box img {
-  width: 100%;
-}
-
-.actividades .cajas .box:hover {
-  transform: scale(1.1);
-}
-
-.actividades .cajas .box:hover img {
-  transform: scale(1.1);
-}
-
-.actividades .cajas .box h3 {
+.actividades .row-box .box h3 {
+  text-align: center;
   font-size: 3rem;
   color: var(--black);
 }
 
-/* end */
+.actividades .row-box .box:hover {
+  transform: scale(1.1);
+}
 
+.actividades .row-box .box:hover img {
+  transform: scale(1.1);
+}
+
+.wave.b {
+  position: absolute;
+  transform: scaleY(-1);
+  top: -1rem;
+  width: 100%;
+}
+
+.wave.b svg {
+  width: calc(100% + 1.3px);
+  height: 12rem;
+}
+
+/* end */
 
 /* dificultades */
 
-.dificultades section:not(.main-section, .svg-divider, .footer) {
-  display: none;
-}
-
-.svg-divider {
+.dificultades {
   position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 10rem;
 }
 
 .main-section {
-  margin-top: 10rem;
   background: url(../images/bg/section.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 110rem;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.main-section .content {
   text-align: center;
+  min-height: 100vh;
 }
 
-.main-section .content h3 {
-  margin-bottom: 10rem;
+.main-section h3 {
+  margin-bottom: 15rem;
   font-size: 10rem;
   color: var(--pink);
 }
 
-.main-section .content h3 span {
+.main-section h3 span {
   color: var(--orange);
 }
 
 /* Estilos para las Actividades */
 
-.main-box h3 {
-  text-align: center;
-  margin-top: 20rem;
+.main-box {
+  padding: 0rem 10%;
 }
 
-.main-box .text {
-  font-size: 3.5rem;
+.main-box h3 {
   text-align: center;
+  padding-top: 20rem;
+  font-size: 10rem;
+  line-height: 15rem;
+  color: var(--orange);
+}
+
+.main-box p {
+  text-align: center;
+  font-size: 3.5rem;
 }
 
 .main-box .actividad-container {
   display: flex;
-  width: 100%;
-  padding: 15rem;
-  margin-top: -5rem;
-  margin-bottom: -25rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 3rem;
 }
 
 .main-box .actividad-container .actividad-row {
@@ -242,7 +214,7 @@ img {
 }
 
 .main-box .actividad-container .actividad {
-  padding: 2rem;
+  margin-top: 5rem;
 }
 
 .main-box .actividad-container .actividad h4 {
@@ -256,19 +228,16 @@ img {
 }
 
 .main-box .actividad-container .actividad-img {
-  width: 50%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 4rem;
+  margin-top: 5rem;
+  padding: 0rem 5%;
+  width: 50%;
 }
 
 .main-box .actividad-container .actividad-img img {
-  width: 100%;
-  height: 70%;
   border-radius: 2rem;
-  padding: 2rem;
-  box-shadow: var(--box-shadow);
+  padding: 1rem;
   background: var(--orange);
 }
 
@@ -277,40 +246,37 @@ img {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-top: 20rem;
+  margin-top: 7rem;
   margin-bottom: 5rem;
 }
 
-.main-box .videos-titulo h4 {
+.main-box h4 {
   font-size: 7.5rem;
   color: var(--orange);
   margin-bottom: 3rem;
 }
 
-.main-box .videos-titulo p {
-  font-size: 3rem;
+.main-box p {
+  font-size: 3.5rem;
   margin-bottom: 6rem;
 }
 
 .main-box .videos .video-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 4rem;
+  margin-bottom: 5rem;
 }
 
 .main-box .videos .video {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  margin: 0;
   background: var(--orange);
   border-radius: 2rem;
 }
 
-.main-box .videos .video:last-child {
+.main-box .videos .video:last-chil {
   margin-left: 50%;
   margin-right: auto;
-  /* Elimino el margen derecho del último video */
 }
 
 .main-box .video:hover {
@@ -318,14 +284,24 @@ img {
 }
 
 .main-box .videos iframe {
-  width: 53.3rem;
-  height: 30rem;
-  /* Ajusta la altura según sea necesario */
-  padding: 1.5rem 1.8rem;
+  width: 50rem;
+  height: 28rem;
+  padding: 1rem;
+  border-radius: 2rem;
 }
 
 /* end */
 
+.wave.c {
+  position: relative;
+  bottom: -1rem;
+  left: 0;
+}
+
+.wave.c svg {
+  width: calc(100% + 1.3px);
+  height: 7rem;
+}
 
 /* footer */
 
@@ -334,138 +310,77 @@ img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 33rem;
+  min-height: 28vh;
   color: var(--orange);
-}
-
-.footer .credit {
-  padding-top: 3.5rem;
-  padding-left: 17rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  font-size: 11rem;
+  padding-left: 15rem;
+  padding-bottom: 15rem;
 }
 
-.footer .credit span {
-  color: var(--orange);
+.footer h5 {
+  font-size: 10rem;
 }
-
-.svg-main {
-  position: relative;
-}
-
-.footer-svg {
-  position: absolute;
-  bottom: -0.35rem;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.footer-svg svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 4rem;
-}
-
-.shape-fill {
-  fill: var(--pink);
-}
-
 
 /* end */
 
 /* media query */
 
-@media (max-width:991px) {
+@media (max-width: 1500px) {
+  html {
+    font-size: 42%;
+  }
+}
+
+@media (max-width: 1250px) {
+  html {
+    font-size: 35%;
+  }
+
+  .main-box .actividad-container {
+    text-align: center;
+  }
+
+  .main-box .actividad-container .actividad-img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
   html {
     font-size: 30%;
   }
 
   .main-box .actividad-container {
-    display: inline;
+    text-align: center;
   }
 
   .main-box .actividad-container .actividad-img {
-    display: flex;
-    flex-wrap: wrap;
-    width: 45rem;
+    width: 60%;
   }
-
-  .main-box .actividad-container .actividad-row {
-    margin-top: 10rem;
-  } 
-
 }
 
-@media (max-width:768px) {
-  .main-box .actividad-container {
-    display: inline;
-  }
-
-  .main-box .actividad-container .actividad-img {
-    display: flex;
-    flex-wrap: wrap;
-    width: 45rem;
-  }
-
-  .main-box .actividad-container .actividad-row {
-    margin-top: 10rem;
-  }  
-
-  .main-box .actividad-container .actividad-row {
-    margin-top: 10rem;
-  } 
-
-
-
-  #dislexia .videos iframe,
-  #dislexia .videos .video-container iframe {
-    width: 100%;
-    /* En dispositivos más pequeños, ocupa el 100% del ancho */
-  }
-
-}
-
-@media (max-width:450px) {
+@media (max-width: 450px) {
   html {
-    font-size: 30%;
+    font-size: 29%;
   }
 
-  .actividades .cajas {
+  .actividades .row {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
   }
 
+  .actividades .image {
+    display: none;
+  }
+
   .main-box .actividad-container {
-    display: inline;
+    text-align: center;
   }
 
   .main-box .actividad-container .actividad-img {
-    display: flex;
-    flex-wrap: wrap;
-    width: 45rem;
+    width: 80%;
   }
-
-  .main-box .actividad-container .actividad-row {
-    margin-top: 10rem;
-  } 
-
-  .main-box .videos .video-container {
-    display: inline;
-  }
-
-  .main-box .videos .video-container .video {
-    width: 50rem;
-    margin-top: 5rem;
-  }
-
-  .main-box .videos .video:last-child {
-    margin: 0rem;
-    margin-top: 5rem;  /* Elimino el margen derecho del último video */
-  }
-
 }
